@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <listeners>  
+<listener class-name="endtoend.Testng_Listner_Class"/>  
+</listeners>  -->
+  <test  name="Test">
+  <parameter name="i" value="1"></parameter>
+  <parameter name="j" value="2"></parameter>
+    <classes>
+      <class name="endtoend.Parameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
